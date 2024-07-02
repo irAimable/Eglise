@@ -1,0 +1,82 @@
+/* styles/styles.module.css */
+.bg-blue-950 {
+  background-color: #001f62; /* Couleur de fond de votre choix */
+}
+
+.text-white {
+  color: #ffffff; /* Couleur du texte */
+}
+
+.py-4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; /* Espacement vertical ajusté */
+}
+
+.bg-cover {
+  background-size: cover; /* Ajuste la taille pour couvrir entièrement l'élément */
+  background-position: center;
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  filter: none;
+}
+.header {
+  background-image: url('/images/cepbu.jpeg');
+
+}
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem; /* Espacement latéral */
+  margin-right: auto;
+  margin-left: auto; /* Centrer le contenu */
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between; /* Alignement des éléments */
+}
+
+.items-center {
+  align-items: center; /* Centrer verticalement */
+}
+
+.text-lg {
+  font-size: 1.125rem; /* Taille de police */
+}
+
+.font-bold {
+  font-weight: 700; /* Gras */
+}
+
+.nav a {
+  color: #ffffff; /* Couleur du texte des liens de navigation */
+  padding: 0 0.75rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline; /* Effet de soulignement au survol */
+}
+
+.nav a.active {
+  font-weight: bold; /* Style du lien actif */
+}
+
+.bg-white {
+  background-color: #ffffff; /* Couleur de fond du bouton */
+}
+
+.text-blue-950 {
+  color: #001f62; /* Couleur du texte du bouton */
+}
+
+.rounded-full {
+  border-radius: 9999px; /* Bordure arrondie */
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; /* Espacement vertical du bouton */
+}
